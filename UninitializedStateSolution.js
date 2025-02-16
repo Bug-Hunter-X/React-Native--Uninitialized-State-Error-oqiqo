@@ -1,0 +1,1 @@
+The solution is to utilize optional chaining (`?.`)  to conditionally access the state variable.  This way, if the `count` state is still undefined, it won't throw an error.  We also demonstrate using a default value in the `useState` hook for a more robust solution.
