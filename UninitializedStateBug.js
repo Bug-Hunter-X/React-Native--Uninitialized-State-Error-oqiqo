@@ -1,0 +1,1 @@
+This error occurs when you try to access a state variable before it has been initialized.  This commonly happens when using asynchronous operations like `useEffect` hooks or `async/await` inside of a functional component.  React's state is updated asynchronously, meaning updates may not reflect immediately.
